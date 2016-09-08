@@ -1,18 +1,79 @@
 body {
+	margin: auto;
 	background-color: rgb(104, 187, 285);
 }
-	
-#head_title {
-	font-size: 22px;
+
+h1 {
+	text-align: center;
+	font-size: 60px;
 	color: #FFFFFF;
 	font-family: arial;
+	text-shadow: 4px;
 }
+h2 {
+	margin-top: 0;
+}
+
 #left-box {
 	background-color: rgb(9, 30, 45);
 	color: #FFFFFF;
 	float: left;
+	width: 300px;
+	margin: 0 0 0 90px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 3px 3px;
+	font-size: 18px;
+
 }
 #right-box {
-	clear: left;
-	position: right;
+	float: right;
+	display: inline-block;
+	width: 850px;
+	margin-right: 5px;
+	margin-top: 0;
+	padding: 0px 10px 10px 10px;
+}
+
+#footer {
+	clear: right;
+	padding-top: 20px;
+	text-align: center;
+}
+.img-social {
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+p {
+	text-align: justify;
+}
+#experience-box {
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	box-shadow: 3px black;
+}
+#studies-box {
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+}
+.title_box_right {
+	font-size: 20px;
+	text-shadow: 3px;
+	background-color: rgb(9, 30, 45);
+	width: 220px;
+	border-radius: 10px;
+	padding: 15px;
+	color: white;
+}
+.years {
+	font-size: 15px;
+	color: rgb(9, 30, 45);
+}
+.photo_cv {
+	height: 200px;
+	width: 220px;
+	padding: 10px 40px 10px 40px;
 }
